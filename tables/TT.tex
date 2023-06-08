@@ -1,0 +1,32 @@
+\begin{tabular}{llll}
+\toprule
+ &  & \multicolumn{2}{r}{Test rows, test columns} \\
+ &  & AUROC & AP \\
+dataset & estimator &  &  \\
+\midrule
+\multirow[c]{5}{*}{enzymes} & L2 & 0.63 (0.06) & 0.13 (0.08) \\
+ & leaf\_uniform & 0.64 (0.07) & 0.14 (0.09) \\
+ & precomputed & 0.64 (0.07) & 0.13 (0.09) \\
+ & softmax & 0.63 (0.07) & 0.13 (0.08) \\
+ & uniform & 0.64 (0.08) & 0.13 (0.08) \\
+\cline{1-2}
+\multirow[c]{5}{*}{gpcr} & L2 & 0.58 (0.11) & 0.05 (0.03) \\
+ & leaf\_uniform & 0.6 (0.1) & 0.05 (0.03) \\
+ & precomputed & 0.61 (0.11) & 0.05 (0.04) \\
+ & softmax & 0.6 (0.11) & 0.05 (0.03) \\
+ & uniform & 0.59 (0.11) & 0.05 (0.03) \\
+\cline{1-2}
+\multirow[c]{5}{*}{ion\_channels} & L2 & 0.65 (0.09) & 0.13 (0.11) \\
+ & leaf\_uniform & 0.65 (0.08) & 0.13 (0.11) \\
+ & precomputed & 0.64 (0.09) & 0.14 (0.11) \\
+ & softmax & 0.65 (0.08) & 0.13 (0.1) \\
+ & uniform & 0.64 (0.09) & 0.13 (0.11) \\
+\cline{1-2}
+\multirow[c]{5}{*}{nuclear\_receptors} & L2 & 0.56 (0.15) & 0.15 (0.15) \\
+ & leaf\_uniform & 0.58 (0.14) & 0.14 (0.14) \\
+ & precomputed & 0.59 (0.15) & 0.16 (0.15) \\
+ & softmax & 0.61 (0.16) & 0.16 (0.17) \\
+ & uniform & 0.61 (0.16) & 0.15 (0.14) \\
+\cline{1-2}
+\bottomrule
+\end{tabular}
